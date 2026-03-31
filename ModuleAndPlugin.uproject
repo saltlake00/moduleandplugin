@@ -5,20 +5,11 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "MySpartaLog",
-			"Type": "Runtime",
-			"LoadingPhase": "PreDefault",
-			"AdditionalDependencies": [
-				"Engine"
-			]
-		},
-		{
 			"Name": "ModuleAndPlugin",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine",
-				"MySpartaLog"
+				"Engine"
 			]
 		}
 	],
@@ -31,8 +22,8 @@
 			]
 		},
 		{
-			"Name": "OneClickLangChange",
-			"Enabled": false
+			"Name": "MyNBCLog",
+			"Enabled": true
 		}
 	]
 }

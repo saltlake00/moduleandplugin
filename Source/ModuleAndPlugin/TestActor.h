@@ -7,7 +7,7 @@
 #include "TestActor.generated.h"
 
 UCLASS()
-class MYSPARTALOG_API ATestActor : public AActor
+class MODULEANDPLUGIN_API ATestActor : public AActor
 {
 	GENERATED_BODY()
 	
