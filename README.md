@@ -126,20 +126,3 @@ void ATestActor::BeginPlay()
 LogMySpartaModule: Warning: MySpartaLog is Start
 LogMySpartaModule: Display: Actor call MySpartaLog Module!
 ```
-
----
-
-## 학습 포인트
-
-1. **플러그인 생성** — `.uplugin` 파일 구성 및 모듈 선언 방법
-2. **모듈 간 의존성** — `Build.cs`의 `PublicDependencyModuleNames`를 통한 플러그인 모듈 참조
-3. **로그 카테고리 공개** — `DECLARE_LOG_CATEGORY_EXTERN` + API 매크로로 외부 모듈에 노출
-4. **Target.cs 설정** — `ExtraModuleNames`에 플러그인 모듈 추가
-
----
-
-## 참고
-
-- 작성자: Eunil
-- 엔진 버전: Unreal Engine 5.5
-- 카테고리: Sparta
